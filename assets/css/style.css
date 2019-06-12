@@ -9,6 +9,6 @@ h1{
     font-size: 30px;
 }
 
-p, #wins, #losses, #guessesLeft, #guessesSoFar {
+p, .game {
     margin-bottom: 15px;
 }
