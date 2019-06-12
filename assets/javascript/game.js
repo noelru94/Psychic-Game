@@ -5,12 +5,36 @@ var letters = ["a","b","c","d","e","f",
 var wins = document.getElementById("wins");
 var losses = document.getElementById("losses");
 var guessesLeft = document.getElementById("guessesLeft");
+var guesses = document.getElementById("guesses");
 
 
 // Computer randomly picks a letter from the array
 function computerChoice(){
 
     var random = Math.floor(Math.random() * letters.length);
-        random = letters[random];
-}
-computerChoice();
+        computerPick = letters[random];
+        
+};
+
+// User picks a letter 
+function userChoice(){
+    document.onkeyup = function(event){
+    userPick = event.key;
+    };
+};
+
+
+
+
+
+
+
+
+
+
+
+function main(){
+    computerChoice();
+    userChoice();
+};
+main();
