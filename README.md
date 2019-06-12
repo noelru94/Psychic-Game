@@ -14,5 +14,5 @@ Letter guessing game. You have 9 lives. Guess the correct letter, you win! Guess
 10. If the number of lives reaches 0 the player loses and game restarts
     - number of lives restarts
     - computers guess switches
-    - wins and losses ramain the same
+    - wins and losses remain the same
 
